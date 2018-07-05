@@ -14,12 +14,17 @@ namespace KanjiRenshuuWebAPI.Controllers
          DatabaseHandler databaseHandler = new DatabaseHandler();
 
         [HttpGet("{word}")]
-        public List<ExampleSentence> GetSentences(string word)
+        public List<ExampleSentenceViewModel> GetSentences(string word)
         {
             if (word == null)
                 return null;
             List<ExampleSentence> sentences = databaseHandler.GetSentences(word);
-            return sentences;
+            List<ExampleSentenceViewModel> viewModels = new List<ExampleSentenceViewModel>();
+            foreach(ExampleSentence sentence in sentences)
+            {
+                viewModels.Add(new ExampleSentenceViewModel(sentence));
+            }
+            return viewModels;
         }
     }
 }

@@ -10,22 +10,20 @@ using KanjiRenshuuWebAPI.Handlers;
 
 namespace KanjiRenshuuWebAPI.Controllers
 {
+    [Route("api/[controller]")]
     public class ToKanaController : Controller
     {
         DatabaseHandler databaseHandler = new DatabaseHandler();
 
-
-        public IActionResult Index()
-        {
-            return View();
-        }
-
         [HttpGet("{word}")]
-        public Sentence GetSentences(string word)
+        public SentenceViewModel GetSentences(string word)
         {
             if (word == null)
                 return null;
-            return new Sentence(word);
+
+            Sentence sentence = new Sentence(word);
+            SentenceViewModel sentenceViewModel = new SentenceViewModel(sentence);
+            return sentenceViewModel;
         }
     }
 }

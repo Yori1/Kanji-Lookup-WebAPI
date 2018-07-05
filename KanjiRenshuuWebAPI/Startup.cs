@@ -34,7 +34,19 @@ namespace KanjiRenshuuWebAPI
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseMvc();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+    name: "default_route",
+    template: "api/{controller}/{action}/{word?}",
+    defaults: new
+    {
+        controller = "ToKana",
+        action = "GetSentences",
+        word = "ようこそ"
+    });
+
+            });
         }
     }
 }
