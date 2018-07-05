@@ -1,6 +1,6 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using KanjiRenshuuAPI.Model;
+using KanjiRenshuuWebAPI.Model;
 
 namespace KanjiRenshuuAPITests
 {

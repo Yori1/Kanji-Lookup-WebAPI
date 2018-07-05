@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using KanjiRenshuuAPI.Model;
-using KanjiRenshuuAPI.Handlers;
+using KanjiRenshuuWebAPI.Model;
+using KanjiRenshuuWebAPI.Handlers;
 
 
 namespace KanjiRenshuuAPITests

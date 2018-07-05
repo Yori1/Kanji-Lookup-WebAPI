@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace KanjiRenshuuAPI.Model
+namespace KanjiRenshuuWebAPI.Model
 {
    public class Word
     {

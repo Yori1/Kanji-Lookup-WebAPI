@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Data.Sqlite;
-using KanjiRenshuuAPI.Model;
+using KanjiRenshuuWebAPI.Model;
 
-namespace KanjiRenshuuAPI.Handlers
+namespace KanjiRenshuuWebAPI.Handlers
 {
     public class DatabaseHandler
     {

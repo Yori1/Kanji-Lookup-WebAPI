@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.International.Converters;
 using System.Globalization;
 
-namespace KanjiRenshuuAPI.Model
+namespace KanjiRenshuuWebAPI.Model
 {
     public class Sentence
     {

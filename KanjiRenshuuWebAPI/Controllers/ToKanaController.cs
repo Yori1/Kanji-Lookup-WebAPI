@@ -3,15 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using KanjiRenshuuAPI.Handlers;
-using KanjiRenshuuAPI.Model;
+using KanjiRenshuuWebAPI.Controllers;
+using KanjiRenshuuWebAPI.Model;
+using KanjiRenshuuWebAPI.Handlers;
 
-namespace KanjiRenshuuAPI.Controllers
+
+namespace KanjiRenshuuWebAPI.Controllers
 {
-    [Route("api/[controller]")]
-    public class SentencesController : Controller
+    public class ToKanaController : Controller
     {
         DatabaseHandler databaseHandler = new DatabaseHandler();
+
+
+        public IActionResult Index()
+        {
+            return View();
+        }
 
         [HttpGet("{word}")]
         public List<Sentence> GetSentences(string word)
