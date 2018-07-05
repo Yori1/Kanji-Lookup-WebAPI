@@ -10,13 +10,23 @@ namespace KanjiRenshuuWebAPI.Model
 {
     public class Sentence
     {
-        public int ID { get; private set; }
         public string JPKanji { get; private set; }
-        public string JPKana { get; private set; }
         public string EN { get; private set; }
-        public List<Word> ReadingsInSentence { get; private set; }
+        public string JPKana { get; private set; }
+        public List<Tuple<string, string>> KanjiAndKanaReadingsWords { get; private set; }
+        List<Word> ReadingsInSentence { get; set; }
 
         string[] meCabOutput;
+
+        public Sentence(string jpKanji)
+        {
+            if(JPKanji!=null)
+            {
+                JPKanji = JPKanji;
+                meCabOutput = getMeCabOutput();
+                JPKana = convertToKanaSentence();
+            }
+        }
 
         public Sentence(string jpKanji, string english)
         {
@@ -24,7 +34,7 @@ namespace KanjiRenshuuWebAPI.Model
             JPKanji = jpKanji;
             EN = english;
             meCabOutput = getMeCabOutput();
-            ReadingsInSentence = getReadingsInSentence();
+            KanjiAndKanaReadingsWords = getReadingsInSentence();
             JPKana = convertToKanaSentence();
         }
 
@@ -43,9 +53,9 @@ namespace KanjiRenshuuWebAPI.Model
             return outputMeCab.Split("\r\n"); // returns array of sentence words with info that look like "日本語\t名詞,一般,*,*,*,*,日本語,ニホンゴ,ニホンゴ"
         }
 
-        List<Word> getReadingsInSentence()
+        List<Tuple<string,string>> getReadingsInSentence()
         {
-            List<Word> readingsInSentence = new List<Word>();
+            List<Tuple<string, string>> readingsInSentence = new List<Tuple<string,string>>();
             for (int count = 0; count < meCabOutput.Length - 2; count++)
             {
                 string wordInfo = meCabOutput[count];
@@ -54,13 +64,13 @@ namespace KanjiRenshuuWebAPI.Model
 
                 if (!checkIfWordContainsKanji(originalWordReading))
                 {
-                    readingsInSentence.Add(new Word(originalWordReading, originalWordReading)); //If the word doesn't contain kanji, it doesn't need to be converted
+                    readingsInSentence.Add(new Tuple<string, string>(originalWordReading, originalWordReading)); //If the word doesn't contain kanji, it doesn't need to be converted
                 }
                 else
                 {
                     string wordReadingInKatakana = getKanaReadingFromWordInfo(wordInfo);
                     string wordReadingInHiragana = KanaConverter.KatakanaToHiragana(wordReadingInKatakana);
-                    readingsInSentence.Add(new Word(originalWordReading,  wordReadingInHiragana));
+                    readingsInSentence.Add(new Tuple<string, string>(originalWordReading,  wordReadingInHiragana));
                 }
             }
             return readingsInSentence;
@@ -85,9 +95,9 @@ namespace KanjiRenshuuWebAPI.Model
         string convertToKanaSentence()
         {
             string kanaSentence = "";
-            foreach(Word word in ReadingsInSentence)
+            foreach(var word in KanjiAndKanaReadingsWords)
             {
-                kanaSentence += word.KanaReading;
+                kanaSentence += word.Item2;
             }
 
             return kanaSentence;

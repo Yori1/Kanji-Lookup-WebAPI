@@ -21,10 +21,9 @@ namespace KanjiRenshuuWebAPI.Controllers
         }
 
         [HttpGet("{word}")]
-        public List<Sentence> GetSentences(string word)
+        public Sentence GetSentences(string word)
         {
-            List<Sentence> sentences = databaseHandler.GetSentences(word);
-            return sentences;
+            return new Sentence(word);
         }
     }
 }
