@@ -11,28 +11,15 @@ namespace KanjiRenshuuWebAPI.Model
     public class Sentence
     {
         public string JPKanji { get; private set; }
-        public string EN { get; private set; }
         public string JPKana { get; private set; }
         public List<Tuple<string, string>> KanjiAndKanaReadingsWords { get; private set; }
-        List<Word> ReadingsInSentence { get; set; }
 
         string[] meCabOutput;
 
         public Sentence(string jpKanji)
         {
-            if(JPKanji!=null)
-            {
-                JPKanji = JPKanji;
-                meCabOutput = getMeCabOutput();
-                JPKana = convertToKanaSentence();
-            }
-        }
-
-        public Sentence(string jpKanji, string english)
-        {
             checkForReservedCharacters(jpKanji);
             JPKanji = jpKanji;
-            EN = english;
             meCabOutput = getMeCabOutput();
             KanjiAndKanaReadingsWords = getReadingsInSentence();
             JPKana = convertToKanaSentence();

@@ -23,6 +23,8 @@ namespace KanjiRenshuuWebAPI.Controllers
         [HttpGet("{word}")]
         public Sentence GetSentences(string word)
         {
+            if (word == null)
+                return null;
             return new Sentence(word);
         }
     }

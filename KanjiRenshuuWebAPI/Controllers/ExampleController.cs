@@ -14,9 +14,11 @@ namespace KanjiRenshuuWebAPI.Controllers
          DatabaseHandler databaseHandler = new DatabaseHandler();
 
         [HttpGet("{word}")]
-        public List<Sentence> GetSentences(string word)
+        public List<ExampleSentence> GetSentences(string word)
         {
-            List<Sentence> sentences = databaseHandler.GetSentences(word);
+            if (word == null)
+                return null;
+            List<ExampleSentence> sentences = databaseHandler.GetSentences(word);
             return sentences;
         }
     }

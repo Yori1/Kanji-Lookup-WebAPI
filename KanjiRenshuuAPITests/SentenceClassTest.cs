@@ -5,43 +5,43 @@ using KanjiRenshuuWebAPI.Model;
 namespace KanjiRenshuuAPITests
 {
     [TestClass]
-    public class SentenceClassTest
+    public class ExampleSentenceClassTest
     {
         [TestMethod]
-        public void TestBasicSentence()
+        public void TestBasicExampleSentence()
         {
-            string jpSentence = "日本語の文章です。";
-            string enSentence = "This is an English sentence.";
-            Sentence sentence = new Sentence(jpSentence, enSentence);
+            string jpExampleSentence = "日本語の文章です。";
+            string enExampleSentence = "This is an English sentence.";
+            ExampleSentence sentence = new ExampleSentence(jpExampleSentence, enExampleSentence);
             Assert.IsTrue(sentence.JPKana == "にほんごのぶんしょうです。");
         }
 
         [TestMethod]
         public void TestKatakana()
         {
-            string jpSentenceKatakana = "カタカナが入っている文章です。";
-            string enSentenceKatakana = "This is a sentence with katakana in it.";
-            Sentence sentenceKatakana = new Sentence(jpSentenceKatakana, enSentenceKatakana);
+            string jpExampleSentenceKatakana = "カタカナが入っている文章です。";
+            string enExampleSentenceKatakana = "This is a sentence with katakana in it.";
+            ExampleSentence sentenceKatakana = new ExampleSentence(jpExampleSentenceKatakana, enExampleSentenceKatakana);
             Assert.IsTrue(sentenceKatakana.JPKana == "カタカナがはいっているぶんしょうです。");
         }
 
         [TestMethod]
         public void TestSymbols()
         {
-            string jpSentence = "!>@#:'。？：";
-            string enSentence = "!>@#:'。？：";
-            Sentence sentence = new Sentence(jpSentence, enSentence);
+            string jpExampleSentence = "!>@#:'。？：";
+            string enExampleSentence = "!>@#:'。？：";
+            ExampleSentence sentence = new ExampleSentence(jpExampleSentence, enExampleSentence);
             Assert.IsTrue(sentence.JPKana == "!>@#:'。？：");
         }
 
         [TestMethod]
         public void TestReservedCharacterErrorHandling()
         {
-            string jpSentence = "?!\r\n:'";
-            string enSentence = "?!\r\n:'";
+            string jpExampleSentence = "?!\r\n:'";
+            string enExampleSentence = "?!\r\n:'";
             try
             {
-                Sentence sentence = new Sentence(jpSentence, enSentence);
+                ExampleSentence sentence = new ExampleSentence(jpExampleSentence, enExampleSentence);
             }
             catch (ArgumentException exc)
             {

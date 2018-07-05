@@ -21,7 +21,7 @@ namespace KanjiRenshuuWebAPI.Handlers
             return AppDomain.CurrentDomain.BaseDirectory;
         }
 
-       public List<Sentence> GetSentences(string word)
+       public List<ExampleSentence> GetSentences(string word)
         {
             string str = getstring();
 
@@ -30,7 +30,7 @@ namespace KanjiRenshuuWebAPI.Handlers
             conn.Open();
             SqliteCommand comm = new SqliteCommand($"select * from sentence where sentence.japanese like  '%{word}%'", conn);
 
-            List<Sentence> sentences = new List<Sentence>();
+            List<ExampleSentence> sentences = new List<ExampleSentence>();
 
             var reader = comm.ExecuteReader();
             using (reader)
@@ -41,7 +41,7 @@ namespace KanjiRenshuuWebAPI.Handlers
                     string englishSentence = reader[3].ToString();
                     if (!japaneseSentence.Contains("\r\n"))
                     {
-                        sentences.Add(new Sentence(japaneseSentence, englishSentence));
+                        sentences.Add(new ExampleSentence(japaneseSentence, englishSentence));
                     }
                 }
             }
