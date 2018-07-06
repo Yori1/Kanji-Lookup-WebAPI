@@ -4,6 +4,7 @@ An easy to use web API that uses a database created from the Tatoeba sentence da
 ## Usage
 ### Searching for sentences
 Example: `api/example/{search term}` 
+
 Used to search the tatoeba database for sentences and get the individual words in the sentence and their individual readings.
 
 The output for `api/example/草` would contain this json object among others:
@@ -49,6 +50,7 @@ The output for `api/example/草` would contain this json object among others:
 
 ### Converting words to kana
 Example: `api/tokana/{words to convert}`
+
 Used to get the individual words and readings from your own input.
 
 Output example:
