@@ -2,14 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <ApplicationInsightsResourceId>/subscriptions/9dbaa3d4-323c-4b79-8cdf-22d3c9eb81a2/resourcegroups/KanjiAPI/providers/microsoft.insights/components/KanjiAPI</ApplicationInsightsResourceId>
+    <ApplicationInsightsAnnotationResourceId>/subscriptions/9dbaa3d4-323c-4b79-8cdf-22d3c9eb81a2/resourcegroups/KanjiAPI/providers/microsoft.insights/components/KanjiAPI</ApplicationInsightsAnnotationResourceId>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="wwwroot\" />
+    <Folder Include="dic\" />
+    <Content Include="ExampleSentences.sqlite" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="JPNKanaConv" Version="1.0.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.3.0" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
     <PackageReference Include="Microsoft.Data.Sqlite" Version="2.1.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
@@ -24,6 +29,10 @@
     <Reference Include="LibNMeCab">
       <HintPath>LibNMeCab.dll</HintPath>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
   </ItemGroup>
 
 </Project>

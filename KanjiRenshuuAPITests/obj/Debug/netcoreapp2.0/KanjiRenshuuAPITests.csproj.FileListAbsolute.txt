@@ -20,12 +20,6 @@ D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuAPI\KanjiR
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuAPI\KanjiRenshuuAPITests\bin\Debug\netcoreapp2.0\LibNMeCab.dll.config
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuAPI\KanjiRenshuuAPITests\bin\Debug\netcoreapp2.0\System.Data.SQLite.dll
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuAPI\KanjiRenshuuAPITests\bin\Debug\netcoreapp2.0\System.Data.SQLite.xml
-D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuAPITests\obj\Debug\netcoreapp2.0\KanjiRenshuuAPITests.csprojResolveAssemblyReference.cache
-D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuAPITests\obj\Debug\netcoreapp2.0\KanjiRenshuuAPITests.csproj.CoreCompileInputs.cache
-D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuAPITests\obj\Debug\netcoreapp2.0\KanjiRenshuuAPITests.AssemblyInfoInputs.cache
-D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuAPITests\obj\Debug\netcoreapp2.0\KanjiRenshuuAPITests.AssemblyInfo.cs
-D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuAPITests\obj\Debug\netcoreapp2.0\KanjiRenshuuAPITests.dll
-D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuAPITests\obj\Debug\netcoreapp2.0\KanjiRenshuuAPITests.pdb
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuAPITests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuAPITests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuAPITests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -37,4 +31,10 @@ D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\Kan
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuAPITests\bin\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.dll
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuAPITests\bin\Debug\netcoreapp2.0\LibNMeCab.dll
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuAPITests\bin\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.pdb
+D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuAPITests\obj\Debug\netcoreapp2.0\KanjiRenshuuAPITests.csprojResolveAssemblyReference.cache
+D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuAPITests\obj\Debug\netcoreapp2.0\KanjiRenshuuAPITests.csproj.CoreCompileInputs.cache
+D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuAPITests\obj\Debug\netcoreapp2.0\KanjiRenshuuAPITests.AssemblyInfoInputs.cache
+D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuAPITests\obj\Debug\netcoreapp2.0\KanjiRenshuuAPITests.AssemblyInfo.cs
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuAPITests\obj\Debug\netcoreapp2.0\KanjiRenshuuAPITests.csproj.CopyComplete
+D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuAPITests\obj\Debug\netcoreapp2.0\KanjiRenshuuAPITests.dll
+D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuAPITests\obj\Debug\netcoreapp2.0\KanjiRenshuuAPITests.pdb

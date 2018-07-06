@@ -2,12 +2,12 @@ D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\Kan
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuWebAPI\bin\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.runtimeconfig.json
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuWebAPI\bin\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.runtimeconfig.dev.json
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuWebAPI\bin\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.dll
+D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuWebAPI\bin\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.pdb
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuWebAPI\bin\Debug\netcoreapp2.0\LibNMeCab.dll
-D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuWebAPI\obj\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.csprojResolveAssemblyReference.cache
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuWebAPI\obj\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.csproj.CoreCompileInputs.cache
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuWebAPI\obj\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.AssemblyInfoInputs.cache
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuWebAPI\obj\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.AssemblyInfo.cs
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuWebAPI\obj\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.csproj.CopyComplete
-D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuWebAPI\bin\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.pdb
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuWebAPI\obj\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.dll
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuWebAPI\obj\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.pdb
+D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuWebAPI\obj\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.csprojResolveAssemblyReference.cache
