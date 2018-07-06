@@ -1,9 +1,6 @@
 # KanjiRenshuuWebAPI
 An easy to use web API that uses a database created from the Tatoeba sentence database in combination with the MeCab class library to allow the user to look up Japanese sentences with detailed reading information. The API is also being hosted on Azure on https://kanjiapi.azurewebsites.net.
 
-## About
-I'm making an app for learning Japanese, and I wanted to use a WebAPI to handle looking up sentences and getting the correct readings for kanji. I couldn't find any available APIs that gave the output I was looking for, so I decided to write my own and share it.
-
 ## Usage
 ### Searching for sentences
 Example: `api/example/{search term}` 
