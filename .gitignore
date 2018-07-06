@@ -1,11 +1,14 @@
 .vs/KanjiRenshuuWebAPI/v15/Server/sqlite3/db.lock
 .vs/KanjiRenshuuWebAPI/v15/Server/sqlite3/storage.ide-wal
+/KanjiRenshuuAPITests/bin/Debug/netcoreapp2.0/
+KanjiRenshuuAPITests/obj/Debug/netcoreapp2.0/
+bin/
+obj/
 
 # Compiled source #
 ###################
 *.com
 *.class
-*.dll
 *.exe
 *.o
 *.so
@@ -27,7 +30,6 @@
 ######################
 *.log
 *.sql
-*.sqlite
 
 # OS generated files #
 ######################
