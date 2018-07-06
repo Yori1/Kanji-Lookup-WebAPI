@@ -90,6 +90,8 @@ Output example:
 }
 ```
 
+## Resources used
+
 The Japanese sentences and English translations in this project were made by using the csv files hosted on the Tatoeba website:
 https://tatoeba.org/eng/downloads
 
