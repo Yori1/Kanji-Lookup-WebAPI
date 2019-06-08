@@ -11,3 +11,14 @@ D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\Kan
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuWebAPI\obj\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.dll
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuWebAPI\obj\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.pdb
 D:\OneDrive\Documenten\Software Sideprojects\KanjiRenshuu\KanjiRenshuuWebAPI\KanjiRenshuuWebAPI\obj\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.csprojResolveAssemblyReference.cache
+C:\Users\yorig\Source\Repos\Kanji-Lookup-WebAPI\KanjiRenshuuWebAPI\obj\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.pdb
+C:\Users\yorig\source\repos\Kanji-Lookup-WebAPI\KanjiRenshuuWebAPI\bin\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.deps.json
+C:\Users\yorig\source\repos\Kanji-Lookup-WebAPI\KanjiRenshuuWebAPI\bin\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.runtimeconfig.json
+C:\Users\yorig\source\repos\Kanji-Lookup-WebAPI\KanjiRenshuuWebAPI\bin\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.runtimeconfig.dev.json
+C:\Users\yorig\source\repos\Kanji-Lookup-WebAPI\KanjiRenshuuWebAPI\bin\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.dll
+C:\Users\yorig\source\repos\Kanji-Lookup-WebAPI\KanjiRenshuuWebAPI\obj\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.csprojAssemblyReference.cache
+C:\Users\yorig\source\repos\Kanji-Lookup-WebAPI\KanjiRenshuuWebAPI\obj\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.csproj.CoreCompileInputs.cache
+C:\Users\yorig\source\repos\Kanji-Lookup-WebAPI\KanjiRenshuuWebAPI\obj\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.AssemblyInfoInputs.cache
+C:\Users\yorig\source\repos\Kanji-Lookup-WebAPI\KanjiRenshuuWebAPI\obj\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.AssemblyInfo.cs
+C:\Users\yorig\source\repos\Kanji-Lookup-WebAPI\KanjiRenshuuWebAPI\bin\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.pdb
+C:\Users\yorig\source\repos\Kanji-Lookup-WebAPI\KanjiRenshuuWebAPI\obj\Debug\netcoreapp2.0\KanjiRenshuuWebAPI.dll

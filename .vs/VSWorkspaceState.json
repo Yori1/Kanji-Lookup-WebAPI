@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\KanjiRenshuuWebAPI",
+    "\\KanjiRenshuuWebAPI\\bin",
+    "\\KanjiRenshuuWebAPI\\Connected Services",
+    "\\KanjiRenshuuWebAPI\\Controllers",
+    "\\KanjiRenshuuWebAPI\\Handlers",
+    "\\KanjiRenshuuWebAPI\\Model",
+    "\\KanjiRenshuuWebAPI\\obj",
+    "\\KanjiRenshuuWebAPI\\Properties",
+    "\\KanjiRenshuuWebAPI\\wwwroot"
+  ],
+  "SelectedNode": "\\KanjiRenshuuWebAPI\\obj\\KanjiRenshuuWebAPI.csproj.nuget.g.targets",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
@@ -7,8 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="dic\**" />
+    <Content Remove="dic\**" />
+    <EmbeddedResource Remove="dic\**" />
+    <None Remove="dic\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
-    <Folder Include="dic\" />
     <Content Include="ExampleSentences.sqlite" />
   </ItemGroup>
 
@@ -18,17 +24,13 @@
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
     <PackageReference Include="Microsoft.Data.Sqlite" Version="2.1.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
+    <PackageReference Include="NMeCab" Version="0.6.4" />
+    <PackageReference Include="NMeCabNetStandard" Version="0.7.3" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
   </ItemGroup>
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="LibNMeCab">
-      <HintPath>LibNMeCab.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
   <ItemGroup>

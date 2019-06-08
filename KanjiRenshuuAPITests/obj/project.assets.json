@@ -3234,6 +3234,21 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "NMeCab/0.6.4": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "NMeCabNetStandard/0.7.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/LibNMeCabNetStandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LibNMeCabNetStandard.dll": {}
+        }
+      },
       "NuGet.Frameworks/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -5753,8 +5768,9 @@
           "Microsoft.ApplicationInsights.AspNetCore": "2.3.0",
           "Microsoft.AspNetCore.All": "2.0.6",
           "Microsoft.Data.Sqlite": "2.1.0",
-          "Microsoft.NETCore.App": "2.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.3",
+          "NMeCab": "0.6.4",
+          "NMeCabNetStandard": "0.7.3",
           "System.Configuration.ConfigurationManager": "4.5.0"
         },
         "compile": {
@@ -5797,10 +5813,11 @@
       ]
     },
     "Microsoft.ApplicationInsights/2.6.4": {
-      "sha512": "cOYn7GQOWVu3O11J3Ckcq2ZrL8p83dAOEW67w8G6+Szq1usGSRYNkPOBDWJMg5iskHN/VA65n6EWuhMP/yNqvw==",
+      "sha512": "xYXORDASlnhF6aMG7dIp+CgO/hx+TcZtoo90vhFuuaFJYi8/sU+ntdK5/EmPfVk2dAMrfJNcSL0ysTSIgJ0T1Q==",
       "type": "package",
       "path": "microsoft.applicationinsights/2.6.4",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/Microsoft.ApplicationInsights.dll",
         "lib/net46/Microsoft.ApplicationInsights.dll",
@@ -5810,10 +5827,11 @@
       ]
     },
     "Microsoft.ApplicationInsights.AspNetCore/2.3.0": {
-      "sha512": "Dudt/xCpVNKDi2Nha2Ddn3yWUVHKOo6jF8uQ4/xpSn7Lc3zVrFNrriZRnyvw6ueWPelxDC5SrQWpVDP/SK0b/A==",
+      "sha512": "Ew6wYr+6nA7+g4O0LKRBVRXm+WT/8mD5iOp8jO6m4MTrv6CQJdGQuPQfTkP0B9Gp8AL+CaWogyx3SYtnW2vo7A==",
       "type": "package",
       "path": "microsoft.applicationinsights.aspnetcore/2.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net451/Microsoft.ApplicationInsights.AspNetCore.dll",
         "lib/net451/Microsoft.ApplicationInsights.AspNetCore.xml",
@@ -5826,10 +5844,11 @@
       ]
     },
     "Microsoft.ApplicationInsights.DependencyCollector/2.6.4": {
-      "sha512": "ATcRdhD5BqtyHE3iQa9lb+FGWqOV+6Qmv6bvN2bXZA3K8+1J7czVBT2wFbSnu5S4xrl4Z4BFWhvp4elvgLZ/9Q==",
+      "sha512": "4FxFB7qGs4UwlUz8pcOHLGgu5EBcYg4XBz0l7JJw7u3XP15ocQWsUYRQkaiH5CbTjLsBRchcNu5/EYQcgHdSdA==",
       "type": "package",
       "path": "microsoft.applicationinsights.dependencycollector/2.6.4",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "content/ApplicationInsights.config.install.xdt",
         "content/ApplicationInsights.config.transform",
@@ -5843,10 +5862,11 @@
       ]
     },
     "Microsoft.ApplicationInsights.PerfCounterCollector/2.6.4": {
-      "sha512": "TdAoUPfiF4GYJUyFl0VWYnwzHpYcZU7jrAqFi6qv1h8sGRIT7d6IqLakmiFYI/kv6n26DPTrd3cGQP6cy4GaXg==",
+      "sha512": "HmFXH6jJFHt7mp0xR8fDjf9lwffDt9W4T2i29kjYQ69Ody0eQ/62MZW1Erh1JowdLwgEh0yWtPxUaYrGGOYmMA==",
       "type": "package",
       "path": "microsoft.applicationinsights.perfcountercollector/2.6.4",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "content/ApplicationInsights.config.install.xdt",
         "content/ApplicationInsights.config.transform",
@@ -5859,10 +5879,12 @@
       ]
     },
     "Microsoft.ApplicationInsights.WindowsServer/2.6.4": {
-      "sha512": "DblLQvovmCPetuaT/9L81pmJ0qWaQp8ADZ9UJM3riIdAZdyrqFzKSH4mB/Wf5nNfwFrbCmJx7AQ6omWZK+1p3w==",
+      "sha512": "yVlQatjWLt63uC/bTQCvZPqV5sXOJxNAfob7eWbyCxepeashjDrXP6Os68HeSeh8QnroiT4bb+l6yx9ei9J6Qg==",
       "type": "package",
       "path": "microsoft.applicationinsights.windowsserver/2.6.4",
+      "hasTools": true,
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "Tools/install.ps1",
         "content/ApplicationInsights.config.install.xdt",
@@ -5877,10 +5899,11 @@
       ]
     },
     "Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel/2.6.4": {
-      "sha512": "oDAd2EymLQevzXbbb51rQK2TV8Y2y27uvNgsSrYyFQtmbKkHQjVPIPsJAX7imBDT9Qfgyuyr6264yU4kxWqTdA==",
+      "sha512": "0rSAZ6OvFfra8/epGG+57yP4wGXblLeM+nDf2sWqHLCkczape1Gty5LFhZBZiff1e9uy9S4oY59o+LYhNmgMrQ==",
       "type": "package",
       "path": "microsoft.applicationinsights.windowsserver.telemetrychannel/2.6.4",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "content/ApplicationInsights.config.install.xdt",
         "content/ApplicationInsights.config.transform",
@@ -7137,10 +7160,11 @@
       ]
     },
     "Microsoft.Data.Sqlite/2.1.0": {
-      "sha512": "0gM/OsHZgICnN7+Qld69S6LON3vTO2MHFAvm3Ji77Tv+sbJL0tIPx7mdvgH0MJ72bslWnm2Y6Su3jYAv52Q0SA==",
+      "sha512": "eXVnRIBYQd1ZPlCvqJukQqwcPd6eUDJInZ4fT1D7IJslrIcevW4nWaI+k6Yt/oww4woK0Dqb9G3rey2uX/aXmQ==",
       "type": "package",
       "path": "microsoft.data.sqlite/2.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/_._",
         "microsoft.data.sqlite.2.1.0.nupkg.sha512",
@@ -7148,10 +7172,11 @@
       ]
     },
     "Microsoft.Data.Sqlite.Core/2.1.0": {
-      "sha512": "OzFBXsbsjkNLqClNyBA8ldv3oLYK37JxP2c83xVe7UcxU2KvvqQy+VvQg97rEcMsZPgS4t3pTAv4W7xwaoYuug==",
+      "sha512": "VJ0kOuf3wp9xyarhBla0JJlwdxz28g09rI4NP8ly8I8/ZhrOZZLtlYvjiMZAPNm0+45+dZ+VXUiO7n4IrP52Zw==",
       "type": "package",
       "path": "microsoft.data.sqlite.core/2.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.dll",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.xml",
@@ -9192,6 +9217,39 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
+    "NMeCab/0.6.4": {
+      "sha512": "cpkMwWzDf17UQpe6k7DJbh4rCtubwSozZvd2toz/BzmqVonRhvt2rj6kljjZrRPOqi4YbqUFsOYw0Qsos1qsfw==",
+      "type": "package",
+      "path": "nmecab/0.6.4",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        "build/NMeCab.targets",
+        "content/net40/_._",
+        "content/net45/dic/ipadic/char.bin",
+        "content/net45/dic/ipadic/dicrc",
+        "content/net45/dic/ipadic/matrix.bin",
+        "content/net45/dic/ipadic/sys.dic",
+        "content/net45/dic/ipadic/unk.dic",
+        "lib/LibNMeCab.dll",
+        "nmecab.0.6.4.nupkg.sha512",
+        "nmecab.nuspec",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "NMeCabNetStandard/0.7.3": {
+      "sha512": "efMRFzAE2K3GOKw9CpPLZDH83Z8OXj3HEdFCEiuF1zrHLMr+sWyEPiT4sgInAJIiSSn/0tcysyQleI/3ntYtzQ==",
+      "type": "package",
+      "path": "nmecabnetstandard/0.7.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/LibNMeCabNetStandard.dll",
+        "lib/netstandard2.0/LibNMeCabNetStandard.pdb",
+        "nmecabnetstandard.0.7.3.nupkg.sha512",
+        "nmecabnetstandard.nuspec"
+      ]
+    },
     "NuGet.Frameworks/4.0.0": {
       "sha512": "WCkN68c8q+USG+Ot1MmBDH+9DUo5dk7UB0QDMiwCYhrH7ZoFLKFGGNzJ8C3LTR1DvB1LW9BOxKeznnZznKiCTA==",
       "type": "package",
@@ -9300,10 +9358,12 @@
       ]
     },
     "runtime.native.System.Net.Http/4.3.0": {
-      "sha512": "ZVuZJqnnegJhd2k/PtAbbIcZ3aZeITq3sj06oKfMBSfphW3HDmk/t4ObvbOk/JA/swGR0LNqMksAh/f7gpTROg==",
+      "sha512": "guqHgQOK2eUgtJae2VKjNawBn1xjC0hfOt5wASHa60XHbIdCsQlqtvMsFG+3hy7yp88V+gi9fZCjubuDkeakcQ==",
       "type": "package",
       "path": "runtime.native.system.net.http/4.3.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -9372,10 +9432,11 @@
       ]
     },
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple/4.3.0": {
-      "sha512": "kVXCuMTrTlxq4XOOMAysuNwsXWpYeboGddNGpIgNSZmv1b6r/s/DPk0fYMB7Q5Qo4bY68o48jt4T4y5BVecbCQ==",
+      "sha512": "Kh9W4agE0r/hK8AX1LvyQI2NrKHBL8pO0gRoDTdDb0LL6Ta1Z2OtFx3lOaAE0ZpCUc/dt9Wzs3rA7a3IsKdOVA==",
       "type": "package",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
+        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
@@ -9898,10 +9959,11 @@
       ]
     },
     "System.Collections.Specialized/4.3.0": {
-      "sha512": "Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
+      "sha512": "NoPBj0ykejqAWW4p4gGtrrL+3c84ZLSvGnHgq422ew1Rj4WKj1FA8/BCybqC111EtgcqUl6ZJNFYYS22HLgbjA==",
       "type": "package",
       "path": "system.collections.specialized/4.3.0",
       "files": [
+        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10309,10 +10371,11 @@
       ]
     },
     "System.Configuration.ConfigurationManager/4.5.0": {
-      "sha512": "NIY8VUJuSNeXPrV5wjQBKKMcd/vctzEGzQuY15zt3/j7Vd4PXfk/QVIOBlqU1/ONRRUu0dsdk5uUTLSSNY+now==",
+      "sha512": "UIFvaFfuKhLr9u5tWMxmVoDPkFeD+Qv8gUuap4aZgVGYSYMdERck4OhLN/2gulAc0nYTEigWXSJNNWshrmxnng==",
       "type": "package",
       "path": "system.configuration.configurationmanager/4.5.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -11687,10 +11750,11 @@
       ]
     },
     "System.Memory/4.5.0": {
-      "sha512": "P56/L4B9vhz0YFTC4qIXFgx+VgMhg3JhCm5/EASihTotyjwmBt2QEAQdmd2tNctYET/w0CRJzVH1cwxgbKGnDQ==",
+      "sha512": "m0psCSpUxTGfvwyO0i03ajXVhgBqyXlibXz0Mo1dtKGjaHrXFLnuQ8rNBTmWRqbfRjr4eC6Wah4X5FfuFDu5og==",
       "type": "package",
       "path": "system.memory/4.5.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -12839,10 +12903,11 @@
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.0": {
-      "sha512": "6zBxkHYemB0kQiHP3vGXGRXejZVoNVuMn2paUuqKKi5Wyjkxfkp+D0rd0c3VrGwotidRINt6KpOi2smL4VkJKw==",
+      "sha512": "YrzNWduCDHhUaSRBxHxL11UkM2fD6y8hITHis4/LbQZ6vj3vdRjoH3IoPWWC9uDXK2wHIqn+b5gv1Np/VKyM1g==",
       "type": "package",
       "path": "system.runtime.compilerservices.unsafe/4.5.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -13338,10 +13403,11 @@
       ]
     },
     "System.Security.AccessControl/4.5.0": {
-      "sha512": "aVjTe36YkO8FzfNhMLoPEzv3gF9rphoW9ngFhG/MH4zzEPLx07sNrgCLwMP4Wx2leI6qarMrGv21OwQXYUKLmw==",
+      "sha512": "vW8Eoq0TMyz5vAG/6ce483x/CP83fgm4SJe5P8Tb1tZaobcvPrbMEL7rhH1DRdrYbbb6F0vq3OlzmK0Pkwks5A==",
       "type": "package",
       "path": "system.security.accesscontrol/4.5.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -13591,10 +13657,11 @@
       ]
     },
     "System.Security.Cryptography.ProtectedData/4.5.0": {
-      "sha512": "wZGwRoLGTuEQBOYXlZmEK41OfmO+vYWbLk7q5ePoFqs6vOKP2kUsOeviEjQoR6MbW9udlDjx9iWhcWOTzSj05w==",
+      "sha512": "wLBKzFnDCxP12VL9ANydSYhk59fC4cvOr9ypYQLPnAj48NQIhqnjdD2yhP8yEKyBJEjERWS9DisKL7rX5eU25Q==",
       "type": "package",
       "path": "system.security.cryptography.protecteddata/4.5.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -13704,10 +13771,11 @@
       ]
     },
     "System.Security.Permissions/4.5.0": {
-      "sha512": "vDQ7q30Soe0a1cPhvxn+7IFmMeTG5IP+hTQrnKQDjTNpD2epqwbZSzMM2Git5TXBr4Kwwhc/0SEtJY0qPoiegA==",
+      "sha512": "9gdyuARhUR7H+p5CjyUB/zPk7/Xut3wUSP8NJQB6iZr8L3XUXTMdoLeVAg9N4rqF8oIpE7MpdqHdDHQ7XgJe0g==",
       "type": "package",
       "path": "system.security.permissions/4.5.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -13781,10 +13849,11 @@
       ]
     },
     "System.Security.Principal.Windows/4.5.0": {
-      "sha512": "WA9ETb/pY3BjnxKjBUHEgO59B7d/nnmjHFsqjJ2eDT780nD769CT1/bw2ia0Z6W7NqlcqokE6sKGKa6uw88XGA==",
+      "sha512": "U77HfRXlZlOeIXd//Yoj6Jnk8AXlbeisf1oq1os+hxOGVnuG+lGSfGqTwTZBoORFF6j/0q7HXIl8cqwQ9aUGqQ==",
       "type": "package",
       "path": "system.security.principal.windows/4.5.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -14966,26 +15035,23 @@
   },
   "packageFolders": {
     "C:\\Users\\yorig\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OneDrive\\Documenten\\Software Sideprojects\\KanjiRenshuu\\KanjiRenshuuWebAPI\\KanjiRenshuuAPITests\\KanjiRenshuuAPITests.csproj",
+      "projectUniqueName": "C:\\Users\\yorig\\source\\repos\\Kanji-Lookup-WebAPI\\KanjiRenshuuAPITests\\KanjiRenshuuAPITests.csproj",
       "projectName": "KanjiRenshuuAPITests",
-      "projectPath": "D:\\OneDrive\\Documenten\\Software Sideprojects\\KanjiRenshuu\\KanjiRenshuuWebAPI\\KanjiRenshuuAPITests\\KanjiRenshuuAPITests.csproj",
+      "projectPath": "C:\\Users\\yorig\\source\\repos\\Kanji-Lookup-WebAPI\\KanjiRenshuuAPITests\\KanjiRenshuuAPITests.csproj",
       "packagesPath": "C:\\Users\\yorig\\.nuget\\packages\\",
-      "outputPath": "D:\\OneDrive\\Documenten\\Software Sideprojects\\KanjiRenshuu\\KanjiRenshuuWebAPI\\KanjiRenshuuAPITests\\obj\\",
+      "outputPath": "C:\\Users\\yorig\\source\\repos\\Kanji-Lookup-WebAPI\\KanjiRenshuuAPITests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\yorig\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -14997,8 +15063,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\OneDrive\\Documenten\\Software Sideprojects\\KanjiRenshuu\\KanjiRenshuuWebAPI\\KanjiRenshuuWebAPI\\KanjiRenshuuWebAPI.csproj": {
-              "projectPath": "D:\\OneDrive\\Documenten\\Software Sideprojects\\KanjiRenshuu\\KanjiRenshuuWebAPI\\KanjiRenshuuWebAPI\\KanjiRenshuuWebAPI.csproj"
+            "C:\\Users\\yorig\\source\\repos\\Kanji-Lookup-WebAPI\\KanjiRenshuuWebAPI\\KanjiRenshuuWebAPI.csproj": {
+              "projectPath": "C:\\Users\\yorig\\source\\repos\\Kanji-Lookup-WebAPI\\KanjiRenshuuWebAPI\\KanjiRenshuuWebAPI.csproj"
             }
           }
         }
@@ -15025,6 +15091,7 @@
             "version": "[15.6.0, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
