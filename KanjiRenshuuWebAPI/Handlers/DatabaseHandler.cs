@@ -31,7 +31,6 @@ namespace KanjiRenshuuWebAPI.Handlers
             SqliteCommand comm = new SqliteCommand($"select * from sentence where sentence.japanese like  '%{word}%'", conn);
 
             List<ExampleSentence> sentences = new List<ExampleSentence>();
-
             var reader = comm.ExecuteReader();
             using (reader)
             {
